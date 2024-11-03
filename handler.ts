@@ -40,6 +40,7 @@ export async function main(event: APIGatewayEvent) {
                 "  - **Output**: \"Consider which parts of the lecture altered your perspective. Why did [specific concept] stand out to you?\"\n\n" +
                 "# Notes\n" +
                 "- Tailor questions to reflect the specific lecture content for maximum relevance.\n" +
+                "- Do not use 'I' sentences instead let the student come to the answer.\n" +
                 "- Adapt prompts to different student levels to ensure guidance is appropriately challenging and supportive.\n\n" +
                 "Here is the context of the lecture:\n\n" +
                 "This lecture, titled 'How to Learn (Asynchronously) Introduction to Learning Skills' by Kai Zhuang, covers various aspects of effective remote learning. Key points include:\n\n" +
